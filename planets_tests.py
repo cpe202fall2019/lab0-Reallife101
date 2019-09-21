@@ -6,7 +6,7 @@ class Test_planets(unittest.TestCase):
 
     def test_01(self):
         sys.stdin = io.StringIO("136")
-        sys.stdout = student_output = io.StringIO()        
+        sys.stdout = student_output = io.StringIO()
         expected_out = "What do you weigh on earth? \nOn Mars you would weigh 51.68 pounds.\nOn Jupiter you would weigh 318.24 pounds."
         weight_on_planets()
         #print(student_output.getvalue().strip())
