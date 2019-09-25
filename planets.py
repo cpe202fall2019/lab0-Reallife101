@@ -1,8 +1,5 @@
 import sys
 
-from pip._vendor.distlib.compat import raw_input
-
-
 def weight_on_planets():
     # write your code here
     weight = float(input("What do you weigh on earth? "))
